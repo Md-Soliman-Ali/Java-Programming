@@ -1,4 +1,4 @@
-# Loop
+# Loop / While Loop
  
 1. Write a program to print 1 to 100
 
@@ -11,3 +11,5 @@
 5. Write a program to find the factorial of a given number.
 
 6. Write a program to check if a number is prime or not.
+
+7. Write a program to reverse a number
