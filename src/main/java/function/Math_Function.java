@@ -1,0 +1,43 @@
+package function;
+
+import java.util.Scanner;
+
+public class Math_Function {
+
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 3;
+        int min = 100;
+        int max = 500;
+
+        System.out.println(Math.min(a, b));
+        System.out.println(Math.max(a, b));
+
+        System.out.println((int) Math.pow(a, b)); // value, power
+
+        System.out.println((int) Math.abs(-50)); // positive
+
+        System.out.println((int) Math.floor(Math.random() * 100));
+
+        // Generate Random Number
+        System.out.println((int) (Math.random() * (max - min) + min));
+
+        System.out.println(Math.round(50.2));
+
+        // System.out.println(Math.ceil(50.6));
+
+        Scanner input = new Scanner(System.in);
+        System.out.println("input an integer number: ");
+        int num1 = input.nextInt();
+        System.out.println(num1);
+
+        System.out.println("input a double number: ");
+        double num2 = input.nextDouble();
+        System.out.println(num2);
+
+        System.out.println("input a name: ");
+        String name = input.next();
+        System.out.println(name);
+    }
+}
