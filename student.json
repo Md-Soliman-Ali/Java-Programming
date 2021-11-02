@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Omar",
+    "roll": "2",
+    "section": "A",
+    "class": "10"
+  },
+  {
+    "name": "Rana",
+    "roll": "5",
+    "section": "A",
+    "class": "10"
+  },
+  {
+    "name": "Rakib",
+    "roll": "12",
+    "section": "A",
+    "class": "9"
+  },
+  {
+    "name": "Sohel",
+    "roll": "14",
+    "section": "A",
+    "class": "10"
+  },
+  {
+    "name": "Polok",
+    "roll": "15",
+    "section": "A",
+    "class": "10"
+  }
+]

@@ -6,3 +6,4 @@
 4. Find The Max And Min Number From A Given Array
 5. Sort Numbers In Ascending From An Array
 6. Find The Duplicate Element In Array
+7. Find The Position From An Array
