@@ -177,14 +177,18 @@ public class Json_Write {
     // Delete JSON
     public static void deleteJSONList(int pos) throws IOException, ParseException {
         String fileName = "student.json";
+
         JSONParser jsonParser = new JSONParser();
         Object obj = jsonParser.parse(new FileReader(fileName));
+
         JSONArray jsonArray = (JSONArray) obj;
         jsonArray.remove(pos);
+
         FileWriter file = new FileWriter(fileName);
         file.write(jsonArray.toJSONString());
         file.flush();
         file.close();
+
         System.out.println("Saved!");
         System.out.print(jsonArray);
     }
