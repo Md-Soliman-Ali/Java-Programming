@@ -13,7 +13,6 @@ public class Product {
         Product product = new Product(15);
         int price = product.price(100);
         System.out.println("Price with 15% Vat: " + price + " Taka Only");
-
     }
 
     public int price(int price) {
